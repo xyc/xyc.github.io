@@ -62,6 +62,14 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
+
+social:
+  GitHub: https://github.com/xyc
+  Twitter: https://twitter.com/chxy
+
+disqus_shortname: disqus_sGleZ7d3AC
+google_analytics: UA-64256028-1
+
 ## Themes: http://hexo.io/themes/
 theme: next
 
