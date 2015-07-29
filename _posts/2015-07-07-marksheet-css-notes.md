@@ -60,11 +60,13 @@ They are also widely used for **positioning** and **spacing** purposes.
 Percentages are **relative units**: they rely upon the element’s parent and/or ancestor.
 
 **block-level** elements like paragraphs naturally take up the **whole width available**.
+
 ```css
 p{ width: 50%;}
 ```
 
 Percentages can help set other CSS properties, like text size:
+
 ```css
 strong{ font-size: 150%;}
 ```
@@ -79,6 +81,7 @@ From wikipedia: https://en.wikipedia.org/wiki/Em_(typography)
 em is a relative unit: it depends upon the value of the element’s font-size. (Don’t confuse the em CSS size unit and the em CSS selector, which targets `<em>` HTML elements)
 
 For example, you want your `<h1>` to be twice as big as your body text, your `<h2>` only 1.5 times as big, and your sidebar slightly smaller. This could easily be achieved in CSS:
+
 ```css
 body{ font-size: 16px;}
 h1{ font-size: 2em;}        /* = 32px */
@@ -99,6 +102,7 @@ included in the browser and called:
 ### Apply CSS reset
 http://marksheet.io/css/reset.css
 CSS reset has been devised to provide a **consistent base** across all browsers.
+
 ```html
 <head>
   <link rel="stylesheet" type="text/css" href="reset.css">
@@ -116,6 +120,7 @@ Fonts are grouped in 5 generic families:
 Because the `font-family` property is inherited by all HTML children elements, you can apply a font for the whole HTML document by applying it on the ancestor of all HTML elements: the `<body>` element.
 
 ### Web-safe fonts
+
 ```css
 body{ font-family: Arial;}
 ```
@@ -132,6 +137,7 @@ Your webpage will use Arial provided it is installed on the user’s computer. I
 - Verdana
 
 ### Apply a list of fonts
+
 ```css
 body{ font-family: Arial, Verdana, sans-serif;}
 ```
@@ -150,6 +156,7 @@ set font style: `h2{ font-style: italic;}`
   - oblique (never used)
 
 ### font-weight
+
 ```css
 font-weight: 100; /* Thin */
 font-weight: 200; /* Extra Light */
@@ -163,6 +170,7 @@ font-weight: 900; /* Ultra Bold */
 ```
 
 ###font-variant
+
 ```css
 font-variant: normal;
 font-variant: small-caps;
