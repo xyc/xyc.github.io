@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
+title:       foldr me 0 universe
+email:       cxychina@gmail.com
+author:      Xiaoyi Chen
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://xiaoyi.ch"
 
 # Google analytics
 google_analytics:
@@ -13,16 +13,16 @@ google_analytics:
 animated:           false
 show_related_posts: false
 show_post_footers:  false
-show_social_icons:  false
+show_social_icons:  true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: xiaoyi
 
 # Social icons
-github_username:
+github_username: xyc
 stackoverflow_id:
-twitter_username:
+twitter_username: chxy
 google_plus_id:
 linkedin_username:
 angellist_username:

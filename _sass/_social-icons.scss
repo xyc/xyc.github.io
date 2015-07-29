@@ -8,10 +8,12 @@
   cursor: pointer;
   opacity: 0.8;
   padding: 0.2em;
+  color: #7a7a7a;
 }
 
 .social-icons a.fa:hover {
   opacity: 1;
+  color: $link-color;
 }
 
 .social-icons iframe[title=Flattr] {
