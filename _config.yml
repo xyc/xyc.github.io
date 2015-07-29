@@ -7,7 +7,7 @@ baseurl:     ""
 url:         "http://xiaoyi.ch"
 
 # Google analytics
-google_analytics:
+google_analytics: UA-52076854-1
 
 # Optional features
 animated:           false
