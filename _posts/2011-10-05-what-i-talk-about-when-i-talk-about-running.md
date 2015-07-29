@@ -6,6 +6,8 @@ comments: true
 categories:
 ---
 
+![Murakami running]({{ site.url }}/images/murakami.jpg)
+
 《当我谈跑步时谈些什么》，是一位朋友推介给我的村上春树对于他几十年坚持跑步的感想录。这个仲夏时节，我刚刚开始跑步。
 
 篇首的引语便直击内心。
