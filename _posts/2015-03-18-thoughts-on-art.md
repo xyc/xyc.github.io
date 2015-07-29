@@ -12,7 +12,7 @@ Ask this question: What is the best artwork ever? You may argue we should define
 
 ## Artwork:
 
-Think about the following scenario: There're 10000 * 10000 pixels in the blank space. They're enough for any single picture to depict the artwork, comparable to pictures taken from our best DSLRs. The number seems a lot but finite.
+Consider the following scenario: There're 10000 * 10000 pixels in the blank space. They're enough for any single picture to depict the artwork, comparable to pictures taken from our best DSLRs. The number seems a lot but finite.
 The power set of the pixels also has infinite size, which includes all images of that size in the universe. The best and worst artworks included.
 
 ## Better:
