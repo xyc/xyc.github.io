@@ -48,6 +48,19 @@ Here's some CSS:
 }
 {% endhighlight %}
 
+
+``` ruby
+def what?
+  42
+end
+```
+
+~~~ ruby
+def what?
+  42
+end
+~~~
+
 # Headings!
 
 They're responsive, and well-proportioned (in `padding`, `line-height`, `margin`, and `font-size`).
