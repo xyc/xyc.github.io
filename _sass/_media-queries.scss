@@ -35,6 +35,10 @@
     // padding: $space-3;
     padding-left: $space-3;
   }
+
+  blockquote p {
+    margin-bottom: 0rem;
+  }
 }
 
 @media screen and (min-width: $viewport-medium) {

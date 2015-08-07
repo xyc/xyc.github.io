@@ -6,7 +6,10 @@ comments: true
 categories:
 ---
 
-![Murakami running]({{ site.url }}/images/murakami.jpg)
+<!-- ![Murakami running]({{ site.url }}/images/murakami.jpg) -->
+
+<img src="{{ site.url }}/images/murakami.jpg" alt="Murakami running" style="width: 100%;"/>
+
 
 《当我谈跑步时谈些什么》，是一位朋友推介给我的村上春树对于他几十年坚持跑步的感想录。这个仲夏时节，我刚刚开始跑步。
 

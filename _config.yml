@@ -53,7 +53,7 @@ kramdown:
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     10
 sass:
   compressed: true
 gems:
