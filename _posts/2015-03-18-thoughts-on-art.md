@@ -6,7 +6,7 @@ comments: true
 categories:
 ---
 
-TL;DR Is the intersection of liberal arts and technology really exist? Or everything can be engineered even including art?
+TL;DR Is the intersection of liberal arts and technology really exist? Or is art an ultimate sophistication that can be engineered?
 
 Ask this question: What is the best artwork ever? You may argue we should define artwork, better and ever first.
 
