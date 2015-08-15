@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  CSS Notes from Marksheet.io
+title:  "CSS Notes from Marksheet.io: Basics and Text"
 date:   2015-07-07 10:30:00
 categories: css
 ---
 
-[Marksheet](http://marksheet.io/) has a series of great tutorials on CSS. Here's some notes taken.
+[Marksheet](http://marksheet.io/) has a series of great tutorials on CSS. Here's some notes taken on CSS Basics and CSS Text.
 
 ## CSS Syntax
 
