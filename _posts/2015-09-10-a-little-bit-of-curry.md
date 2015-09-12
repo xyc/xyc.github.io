@@ -3,6 +3,7 @@ layout: post
 title:  A little bit of curry
 date:   2015-09-10 20:30:00
 categories: plt functional-programming
+excerpt: Curry is not only a tasty dish; it is also a technique in Computer Science to make functions delicious.
 ---
 
 Curry is not only a tasty dish; it is also a technique in Computer Science to make functions delicious.
@@ -29,9 +30,9 @@ coffee> add(1,2)
 
 So far so good! But if we are allowed only to use **exactly one** argument for *any* function definition, can we define a function (or composition of functions) to add two numbers?
 
-Yes we can. [insert Obama pic]
+Yes we can! :)
 
-We can define a function that takes one argument and returns a function that takes another argument. The inner function now has access to both of the arguments, and it will return what our original function does: adding two numbers. #TODO (lambda calculus: the expression.)
+The insight is that we can define a function that takes one argument and returns a function that takes another argument. The inner function now has access to both of the arguments, and it will return what our original function does: adding two numbers.
 
 ``` coffee
 ------> add_curried = (a) ->
