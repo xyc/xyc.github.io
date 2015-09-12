@@ -5,9 +5,9 @@ date:   2015-09-10 20:30:00
 categories: plt functional-programming
 ---
 
-## Tastes of Curry
-
 Curry is not only a tasty dish; it is also a technique in Computer Science to make functions delicious.
+
+## Tastes of Curry
 
 The wikipedia article on [currying](https://en.wikipedia.org/wiki/Currying) might be a tedious read, but in essence, currying is just transforming a function that take multiple arguments into a sequence of functions that take one single argument.
 
