@@ -55,14 +55,14 @@ coffee> add_curried(1)(2)
 
 Single argument for functions looks like a constraint/limitation, but in fact it frees you from the tight coupling of function arguments. For a function with multiple arguments, you have to supply the function with all arguments it needs in order to call it. For a curried function, you can applied only parts of the arguments it needs, which is called partial application, and pass the result around so that we can take the result for other purposes, or as building blocks for function composition.
 
-The first application `add_curried(1)` fits the definition of partial application. It turns out that we can use this function to increment all elements in a list by 1! Just by throwing our curried function in:
+The first application `add_curried(1)` fits the definition of partial application. It turns out that we can use this function to increment all elements in a list by 1! Just throw our curried function in:
 
 ``` coffee
 coffee> [1,2,3].map(add_curried(1))
 [ 2, 3, 4 ]
 ```
 
-And the syntax for calling a curried function doesn't have to be complex either. In fact, in Haskell, all functions are considered curried: That is, all functions in Haskell take just single arguments. (λ-calculus supports single argument too, which is not a coincidence.) Since Haskell function application takes the highest precedence (over operators), writing function application is even simpler.
+And the syntax for calling a curried function doesn't have to be verbose. In fact, in Haskell, all functions are considered curried: That is, all functions in Haskell take just single argument. (λ-calculus supports single argument only too, which is not a coincidence.) Since Haskell function application takes the highest precedence (over operators), writing function application is even simpler.
 
 ``` haskell
 Prelude> (+) 1 2
@@ -77,6 +77,13 @@ add' a = \b -> a + b
 add'' = \(a, b) -> a + b
 ```
 
+Further more, knowing that functions only takes one argument allows you to define function composition easily. You just pipe the result of a previous function application to the next function.
+
+```haskell
+(.)                     :: (b->c) -> (a->b) -> (a->c)
+f . g                   = \ x -> f (g x)
+```
+
 ## Make Curry
 
 We can even define a function to make curry functions for us. Check out the Curry machine that works for functions with an arity of 2 (that takes 2 arguments):
@@ -86,13 +93,13 @@ We can even define a function to make curry functions for us. Check out the Curr
 curry2 = (f) ->
   (x) ->
     (y) ->
-      f(x, y) # f x,y
+      f(x, y)
 # curry2(add_uncorried)(1)(2) === 3
 
 # uncurry2 takes a curried function
 uncurry2 = (f) ->
   (x, y) ->
-    f(x)(y) # f x y
+    f(x)(y)
 
 #uncurry2(add_curried)(1, 2) === 3
 ```
