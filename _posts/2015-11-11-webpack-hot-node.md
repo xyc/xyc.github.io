@@ -132,4 +132,4 @@ As brilliantly stated in this well known talk ["Inventing on Principle"](https:/
 
 Also, the quicker you are able to spot the bug, the less hassle you will experience later in development. Another interesting talk [Why does React scale](https://www.youtube.com/watch?v=D-ioDiacTm8) by Christopher Cheddar explains how React can enable developers to quickly locate the bug by limiting who can change the states and where the states can be changed.
 
-Next up, I will write about how we integrate Docker in the workflow.
+Next up, I will write about how we can integrate Docker in the workflow.
