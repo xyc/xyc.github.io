@@ -108,7 +108,7 @@ uncurry2 = (f) ->
 coffee> [1,2,3].map(curry2(add_uncorried)(1));
 [ 2, 3, 4 ]
 ```
-How about more arguments than 2? If you have a Friday afternoon to spare, challenge yourself with this puzzle: https://github.com/frantic/friday. (Hint: use bind)
+How about more arguments than 2? If you have a Friday afternoon to spare, challenge yourself with this puzzle: [https://github.com/frantic/friday](https://github.com/frantic/friday). (Hint: use bind)
 
 Curry for the win!
 <img src="{{ site.url }}/images/curry.jpg" alt="Steph Curry knows how to curry" style="width: 100%;"/>

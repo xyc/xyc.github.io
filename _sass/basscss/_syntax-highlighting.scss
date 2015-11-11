@@ -85,6 +85,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   font-style: italic;
 }
 
+.highlight .kr, // import
 .highlight .kd,
 .highlight .k,
 .highlight .kp {
@@ -118,6 +119,8 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   font-weight: normal;
 }
 
+// .highlight .nl, // js methods
+// .highlight .nx, // js methods
 .highlight .nc,
 .highlight .no {
   color: $hljs-type;
