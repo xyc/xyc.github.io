@@ -3,7 +3,7 @@ layout: post
 title: "Using Webpack to hot reload React Components with Node.js backend"
 date: 2015-11-11 00:58:29 -0700
 comments: true
-categories: react webpack Node.js REPL
+categories: webpack
 excerpt: Recently I migrated the front-end build process of a project from Gulp to Webpack. The results could not be more satisfactory.
 ---
 
