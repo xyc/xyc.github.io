@@ -124,12 +124,12 @@ The [REPL-driven](https://www.youtube.com/watch?v=D9j_Mf91M0I) development works
 3. Print: The browser renders the web page, you see the results
 4. Loop: Go to read
 
-Live reloading shortens the feedback loop (especially in 1. Read) and hot reloading takes it to the next level because it **doesn't lose the state of the application**. This helps you stay in the [flow](https://en.wikipedia.org/wiki/Flow_(psychology) as long as possible and achieve hyperproductivity.
+Live reloading shortens the feedback loop (especially in 1. Read) and hot reloading takes it to the next level because it **doesn't lose the state of the application**. This helps you stay in the [flow](https://en.wikipedia.org/wiki/Flow_(psychology)) as long as possible and achieve hyperproductivity.
 
 As brilliantly stated in this well known talk ["Inventing on Principle"](https://www.youtube.com/watch?v=PUv66718DII) by Bret Victor:
 
 >  Creators need to be able to see what they are doing. If you are designing something embedded in time, you need to be able to control time. You need to be able to see across time, otherwise it's designing as blind
 
-Also, the quicker you are able to spot the bug, the less hassle you will experience later in development. Another interesting talk [Why does react scale](https://www.youtube.com/watch?v=D-ioDiacTm8) by Christopher Cheddar explains how React can enable developers to quickly locate the bug by limiting who can change the states and where the states can be changed.
+Also, the quicker you are able to spot the bug, the less hassle you will experience later in development. Another interesting talk [Why does React scale](https://www.youtube.com/watch?v=D-ioDiacTm8) by Christopher Cheddar explains how React can enable developers to quickly locate the bug by limiting who can change the states and where the states can be changed.
 
 Next up, I will write about how we integrate Docker in the workflow.

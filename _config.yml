@@ -46,10 +46,15 @@ share_stumbleupon: false
 share_hackernews: false
 
 # Build settings
-markdown:     kramdown
-kramdown:
-  input: GFM
-  coderay_line_numbers: nil
+# markdown:     kramdown
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: coderay
+  # coderay_line_numbers: nil
+#markdown: rdiscount
+
+markdown: redcarpet
+#highlighter: pygments
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
@@ -58,3 +63,4 @@ sass:
   compressed: true
 gems:
   - jekyll-sitemap
+  - jekyll-paginate

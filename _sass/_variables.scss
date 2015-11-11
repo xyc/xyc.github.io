@@ -92,22 +92,24 @@ $form-field-padding-y: .5rem;
 $form-field-padding-x: .5rem;
 
 // Code
+// https://github.com/isagalaev/highlight.js/blob/master/src/styles/monokai-sublime.css
 $pre-border-radius: 0;
-$pre-background-color: #fafafa;
-$hljs-comment: $mid-gray;
-$hljs-keyword: $dark-gray;
-$hljs-number: $dark-green;
-$hljs-string: $red;
-$hljs-title: $red;
-$hljs-type: $dark-blue;
-$hljs-tag: $dark-blue;
-$hljs-attribute: $dark-green;
-$hljs-regexp: $dark-green;
-$hljs-symbol: $purple;
-$hljs-built-in: $dark-blue;
+$pre-background-color: #272822;
+$hljs-comment: #75715e;
+$hljs-keyword: #f92672;
+$hljs-literal: #ae81ff;
+$hljs-number: #ae81ff;//$dark-green;
+$hljs-string:#e6db74;// #a6e22e;
+$hljs-title: #a6e22e;//$red;
+$hljs-type: #a6e22e;//$dark-blue;
+$hljs-tag: #f8f8f2;//$dark-blue;
+$hljs-attribute: #66d9ef; //$dark-green;
+$hljs-regexp: #bf79db; //$dark-green;
+$hljs-symbol: #66d9ef;//$purple;
+$hljs-built-in: #e6db74; //$dark-blue;
 $hljs-preprocessor: $mid-gray;
-$hljs-deletion: $light-pink;
-$hljs-addition: $light-green;
+$hljs-deletion: #75715e;
+$hljs-addition: #e6db74;//$light-green;
 $hljs-change: $dark-blue;
 $hljs-chunk: $light-gray;
 
