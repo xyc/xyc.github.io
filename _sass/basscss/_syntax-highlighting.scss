@@ -79,6 +79,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   background: #272822; color: #ddd;
 }
 
+.highlight .c,
 .highlight .c1 {
   color: $hljs-comment;
   font-style: italic;
@@ -95,14 +96,17 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   color: $hljs-literal
 }
 
+.highlight .m,
 .highlight .mi {
   color: $hljs-number;
 }
 
+.highlight .s,
 .highlight .s1 {
   color: $hljs-string;
 }
 
+.highlight .nt,
 .hljs-title,
 .hljs-id,
 .scss .hljs-preprocessor {
@@ -124,6 +128,8 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
   font-weight: normal;
 }
 
+.highlight .n,
+.highlight .na,
 .highlight .nb {
   color: $hljs-attribute;
 }

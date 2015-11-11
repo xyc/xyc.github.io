@@ -97,11 +97,12 @@ The rem unit is similar to em, but instead of depending upon the parent’s valu
 
 ### User agent stylesheet
 included in the browser and called:
+
 - every time a webpage is rendered
 - before any of our CSS is applied
 
 ### Apply CSS reset
-http://marksheet.io/css/reset.css
+[http://marksheet.io/css/reset.css](http://marksheet.io/css/reset.css)
 CSS reset has been devised to provide a **consistent base** across all browsers.
 
 ```html
@@ -113,6 +114,7 @@ CSS reset has been devised to provide a **consistent base** across all browsers.
 
 ## CSS Font family
 Fonts are grouped in 5 generic families:
+
 - serif fonts have small lines attached to the end of each character
 - sans-serif
 - monospace
