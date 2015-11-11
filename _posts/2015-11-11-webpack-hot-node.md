@@ -90,19 +90,20 @@ A little difference here from the webpack-dev-server tutorial is that `webpack/h
 ### server.js
 
 ``` javascript
+// use proxy-middleware
 if (process.env.NODE_ENV !== 'production'){
 	var proxy = require('proxy-middleware');
 	var url = require('url');
 	app.use('/js', proxy(url.parse('http://localhost:3000/js')));
 }
 
+// run web pack server on 3000 for hot reloading
 if (process.env.NODE_ENV !== 'production'){
-	// run web pack server on 3000 for hot reloading
 	(require('./webpack-server'))();
 }
 ```
 
-Here's what we need to change in our Node.js server, which serves the front end files as well as backend services. When the client requests the js files, it proxies the request to the webpack-dev-server (that hot reloads any changes). When the client makes API calls, it still goes to the request handlers in Node.
+Here's what we need to change in our Node.js server, which serves the front end files as well as backend services. We add a proxy-middleware in Express to proxy requests for JS files to webpack-dev-server. When the client requests the JS files, it is forwarded to the webpack-dev-server (that hot reloads any changes). When the client makes API calls, it still goes to the request handlers in Node.
 
 So running `node server.js` will launch both the node server and webpack-dev-server while webpack-dev-server hot reloads your React component. To run node in production (and disable the webpack-dev-server), you just have to run: `NODE_ENV=production node server.js`.
 
