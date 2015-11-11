@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Using Webpack to hot reload React Components with Node.js backend"
-date: 2011-11-11 00:58:29 -0700
+date: 2015-11-11 00:58:29 -0700
 comments: true
 categories: react webpack Node.js REPL
+excerpt: Recently I migrated the front-end build process of a project from Gulp to Webpack.
 ---
 
 ## Migration to webpack
@@ -80,7 +81,7 @@ module.exports = function(){
 
 [webpack-dev-server](https://webpack.github.io/docs/webpack-dev-server.html) is an Express server that uses webpack-dev-middleware to serve a webpack bundle. The *entry point* `webpack-dev-server/client?http://localhost:3000` provides the client entry point for the webpack dev server to run as inline mode. This configuration is loaded by `webpack-server.js`. The `publicPath: 'http://localhost:3000/js/'` configuration puts the bundle under `http://localhost:3000/js/bundle.js`. (if you open [http://localhost:3000/webpack-dev-server](http://localhost:3000/webpack-dev-server) you can see it). One thing to note is that `publicPath` is not only used for dev purposes, but can also be used for [async loading](https://github.com/petehunt/webpack-howto#9-async-loading).
 
-The *entry point* `webpack/hot/only-dev-server` , `new webpack.HotModuleReplacementPlugin()` in webpack configuration and `hot: true` in webpack-dev-server configuration is needed to enable Hot Module Replacement on the server. Updated modules are loaded and injected them into the running app when you updates the code.
+The *entry point* `webpack/hot/only-dev-server` and the plugin `new webpack.HotModuleReplacementPlugin()` in webpack configuration, along with `hot: true` in webpack-dev-server configuration are needed to enable Hot Module Replacement on the server. Updated modules are loaded and injected them into the running app when you updates the code.
 
 A little difference here from the webpack-dev-server tutorial is that `webpack/hot/only-dev-server` is used together with `webpack.NoErrorsPlugin()` to [disable page reload](https://github.com/webpack/webpack/issues/418) if HMR updates fails.
 
