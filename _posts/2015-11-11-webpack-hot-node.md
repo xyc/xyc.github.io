@@ -97,8 +97,7 @@ if (process.env.NODE_ENV !== 'production'){
 }
 
 if (process.env.NODE_ENV !== 'production'){
-	// run web pack server on 3000
-	// only for hot reloading (8080 doesn't hot reload)
+	// run web pack server on 3000 for hot reloading
 	(require('./webpack-server'))();
 }
 ```
