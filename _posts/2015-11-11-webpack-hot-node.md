@@ -130,10 +130,8 @@ As brilliantly stated in this well known talk ["Inventing on Principle"](https:/
 
 >  Creators need to be able to see what they are doing. If you are designing something embedded in time, you need to be able to control time. You need to be able to see across time, otherwise it's designing as blind.
 
-Worth watching again:
 <div style="">
-<!-- width="640" -->
-  <iframe style="display:block; margin:0 auto;" id="ytplayer" type="text/html" width="100%" height="400"    src="http://www.youtube.com/embed/PUv66718DII?autoplay=1&origin=http://xiaoyi.ch" frameborder="0" allowfullscreen>
+  <iframe style="display:block; margin:0 auto;" id="ytplayer" type="text/html" width="100%" height="400"    src="http://www.youtube.com/embed/PUv66718DII?origin=http://xiaoyi.ch" frameborder="0" allowfullscreen>
 
   </iframe>
 </div>
