@@ -67,6 +67,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 //   font-weight: bold;
 // }
 
+// override the padding for `single` type of code
 .highlight > pre code {
   padding-left: 0;
   padding-right: 0;
