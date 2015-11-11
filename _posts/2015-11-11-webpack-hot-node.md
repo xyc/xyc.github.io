@@ -130,6 +130,14 @@ As brilliantly stated in this well known talk ["Inventing on Principle"](https:/
 
 >  Creators need to be able to see what they are doing. If you are designing something embedded in time, you need to be able to control time. You need to be able to see across time, otherwise it's designing as blind.
 
+Worth watching again:
+<div style="">
+<!-- width="640" -->
+  <iframe style="display:block; margin:0 auto;" id="ytplayer" type="text/html" width="100%" height="400"    src="http://www.youtube.com/embed/PUv66718DII?autoplay=1&origin=http://xiaoyi.ch" frameborder="0" allowfullscreen>
+
+  </iframe>
+</div>
+
 Also, the quicker you are able to spot the bug, the less hassle you will experience later in development. Another interesting talk [Why does React scale](https://www.youtube.com/watch?v=D-ioDiacTm8) by Christopher Cheddar explains how React can enable developers to quickly locate the bug by limiting who can change the states and where the states can be changed.
 
 Next up, I will write about how we can integrate Docker in the workflow.
