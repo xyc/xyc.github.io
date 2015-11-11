@@ -13,7 +13,7 @@ Recently I migrated the front-end build process of a project from Gulp to Webpac
 
 I used to use Gulp and browserify to transform JSX code. Having tried out webpack in another little experiment, I saw the potential it could bring to our current workflow. After the migration, Gulp is still used for running automated test cases, but webpack handles all the front-end bundling process.
 
-Pete hunt wrote this excellent [tutorial](https://github.com/petehunt/webpack-howto) if you have used tools like browserify and want to try out webpack. Dan Abramov's [minimal hot reloading boilerplate](https://github.com/gaearon/react-hot-boilerplate) and [react-transform boilerplate](https://github.com/gaearon/react-transform-boilerplate)(with error handling) are also a good point to start.
+Pete hunt wrote this excellent [tutorial](https://github.com/petehunt/webpack-howto) if you have used tools like browserify and want to try out webpack. Dan Abramov's [minimal hot reloading boilerplate](https://github.com/gaearon/react-hot-boilerplate) and [react-transform boilerplate](https://github.com/gaearon/react-transform-boilerplate)(with error handling) are also a good point to start if you are starting from scratch.
 
 ## webpack-dev-server config
 
