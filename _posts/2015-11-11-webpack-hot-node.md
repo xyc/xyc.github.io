@@ -106,7 +106,7 @@ Here's what we need to change in our Node.js server, which serves the front end 
 
 So running `node server.js` will launch both the node server and webpack-dev-server while webpack-dev-server hot reloads your React component. To run node in production (and disable the webpack-dev-server), you just have to run: `NODE_ENV=production node server.js`.
 
-Another approach is to use proxy settings in webpack-dev-server config to forward all requests to backend (by `proxy: { "*":"http://localhost:8080" }`), and hot reloading is available on `localhost:3000`, as described in this [blog post](http://ctheu.com/2015/05/14/using-react-hot-loader-with-a-webpack-dev-server-and-a-node-server/). As I fiddle around with it a bit, you can enjoy hot reloading on both ends if both proxies are set.
+Another approach is to use proxy settings in webpack-dev-server config to forward all requests to backend (by `proxy: { "*":"http://localhost:8080" }`), and hot reloading is available on `localhost:3000`, as described in this [blog post](http://ctheu.com/2015/05/14/using-react-hot-loader-with-a-webpack-dev-server-and-a-node-server/). As I fiddled around with it a bit, I found that you could enjoy hot reloading on both ends if both proxies are set.
 
 ## Development With React Hot Loader
 
