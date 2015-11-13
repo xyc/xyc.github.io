@@ -68,18 +68,29 @@ And the syntax for calling a curried function doesn't have to be verbose. In fac
 Prelude> (+) 1 2
 3
 
+-- add and add' are curried 
 -- you can replace any occurrence of add with add' or the other way around
 add a b = a + b
 add' a = \b -> a + b
+Prelude> add 1 2
+3
 
 -- add'' takes a tuple
--- add'' (1,2)
 add'' = \(a, b) -> a + b
+-- add'' is "uncurried" (not really, the tuple still one argument)
+Prelude> add''(1,2)
+3
+
+-- uncurry and curry back and forth
+Prelude> uncurry add $ (1,2)
+3
+Prelude> curry add'' 1 2
+3
 ```
 
-Further more, knowing that functions only takes one argument allows you to define function composition easily. You just pipe the result of a previous function application to the next function.
+Further more, knowing that any function only takes one argument allows you to define function composition easily. You just pipe the result of a previous function application to the next function.
 
-```haskell
+``` haskell
 (.)                     :: (b->c) -> (a->b) -> (a->c)
 f . g                   = \ x -> f (g x)
 ```
@@ -108,9 +119,11 @@ uncurry2 = (f) ->
 coffee> [1,2,3].map(curry2(add_uncorried)(1));
 [ 2, 3, 4 ]
 ```
+
 How about more arguments than 2? If you have a Friday afternoon to spare, challenge yourself with this puzzle: [https://github.com/frantic/friday](https://github.com/frantic/friday). (Hint: use bind)
 
 Curry for the win!
+
 <img src="{{ site.url }}/images/curry.jpg" alt="Steph Curry knows how to curry" style="width: 100%;"/>
 
 ## Additional Readings
