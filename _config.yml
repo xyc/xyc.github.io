@@ -3,7 +3,7 @@ title:       foldr me 0 universe #
 email:       cxychina@gmail.com
 author:      Xiaoyi Chen
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
+baseurl:     "blog"
 url:         "http://xyc.github.io"
 
 # Google analytics

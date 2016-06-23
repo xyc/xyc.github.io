@@ -100,19 +100,19 @@ f . g                   = \ x -> f (g x)
 We can even define a function to make curry functions for us. Check out the Curry machine that works for functions with an arity of 2 (that takes 2 arguments):
 
 ``` coffee
-# curry takes a function with two arguments
+# curry takes a function with two arguments, and returns a function that will accept two arguments separately in order to call the original function
 curry2 = (f) ->
   (x) ->
     (y) ->
       f(x, y)
-# curry2(add_uncorried)(1)(2) === 3
+# curry2(add_uncurried)(1)(2) == 3
 
-# uncurry2 takes a curried function
+# uncurry2 takes a curried function, and returns a function that takes two arguments
 uncurry2 = (f) ->
   (x, y) ->
     f(x)(y)
 
-#uncurry2(add_curried)(1, 2) === 3
+#uncurry2(add_curried)(1, 2) == 3
 ```
 
 ``` coffee
